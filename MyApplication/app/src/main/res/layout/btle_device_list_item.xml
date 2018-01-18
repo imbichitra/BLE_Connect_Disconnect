@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/square"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:id="@+id/tv_name"
+        android:text="Hall Switch"
+        android:textColor="#000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:id="@+id/tv_macaddr"
+        android:text="FF:FF:FF:FF:FF:FF"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginTop="3dp"
+        android:textColor="#000" />
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/square2"
+        android:padding="8dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/btn_Connect"
+        android:clickable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/tv_connect_btn"
+            android:textStyle="bold"
+            android:text="CONNECT"
+            android:textSize="14sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFF"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
