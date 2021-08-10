@@ -11,7 +11,7 @@ public class BTLE_Device {
     private int rssi;
 
     public BTLE_Device(BluetoothDevice bluetoothDevice) {
-        this.bluetoothDevice = bluetoothDevice;
+        this.bluetoothDevice = bluetoothDevice;  
     }
 
     public String getAddress() {
