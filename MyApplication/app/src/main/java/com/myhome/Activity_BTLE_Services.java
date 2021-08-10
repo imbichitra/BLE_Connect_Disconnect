@@ -74,7 +74,7 @@ public class Activity_BTLE_Services extends AppCompatActivity{
         public void onServiceDisconnected(ComponentName arg0) {
             mBTLE_Service = null;
             mBTLE_Service_Bound = false;
-            Log.d(TAG, "onServiceDisconnected");
+            Log.d(TAG, "onServiceDisconnecte");
 //            mBluetoothGatt = null;
 //            mGattUpdateReceiver.setBluetoothGatt(null);
 //            mGattUpdateReceiver.setBTLeService(null);
